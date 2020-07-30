@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单标签</title>
+</head>
+<body>
+    <form>
+        <label for="text">用户名：</label><input type="text" name="username" value="请输入用户名" maxlength="6" id="text"> <br />
+        密码：<input type="password" name="psw" value="请输入用户名密码"> <br />
+        性别：<label for="man">男</label><input type="radio" name="sex" value="男" checked="checked" id="man"> <label for="woman">女</label><input type="radio" name="sex" value="女" id="woman"> 人妖<input type="radio" name="sex" value="人妖"><br />
+        爱好：吃饭<input type="checkbox" name="hobby" value="吃饭"> 睡觉<input type="checkbox" name="hobby" value="睡觉"> 打游戏<input type="checkbox" name="hobby" value="打游戏"><br />
+        上传头像：<input type="file"> <br>
+        籍贯：<select>
+            <option>江苏</option>
+            <option>浙江</option>
+            <option>上海</option>
+            <option selected="selected">北京</option>
+        </select> <br>
+        今日反馈：<textarea cols="50 rows="5">
+        做的不要太好哦！！！遇事不决，可问春风。
+
+        </textarea> <br>
+        <input type="button" value="获取短信验证码"><br />
+        <input type="submit" value="免费注册">
+        <input type="reset" value="重新设置">
+
+    </form>
+
+</body>
+</html>
